@@ -16,5 +16,6 @@
     "icons": {
         "128": "/icon/128.png",
         "512": "/icon/512.png"
-    }
+    },
+    "version": "None. Version should be created by create_release.py"
 }
