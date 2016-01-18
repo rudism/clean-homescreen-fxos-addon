@@ -13,7 +13,7 @@ def createRelease():
 	clean_up(manifest_content)
 
 def today_version():
-	return datetime.datetime.today().date().strftime('%Y.%m.%d')
+	return '{dt.year}.{dt.month}.{dt.day}'.format(dt = datetime.datetime.now())
 
 def read_manifest():
 	in_file = open('manifest.json', 'r')
