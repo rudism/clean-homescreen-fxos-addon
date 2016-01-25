@@ -21,7 +21,7 @@ function updateVisibility() {
 }
 
 function setStyle(css) {
-	var style = document.getElementById('injectedStyle');
+	var style = document.getElementById('injectedStyleFromCleanHomescreenAddOn');
 	if (style) {
 		style.parentNode.removeChild(style);
 	}
